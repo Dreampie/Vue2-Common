@@ -4,7 +4,7 @@
   "title": "Vue2 Common",
   "description": "A Vue2 Common",
   "homepage": "https://github.com/Dreampie/Vue2-Common",
-  "author": "Dreampie <Dreampie@outlook.com>",
+  "author": "Dreampi <Dreampie@outlook.com>",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
