@@ -1,0 +1,9 @@
+{
+  "port": 7777,
+  "title": "Vue Common",
+  "example": {
+    "rootUrl": "http://localhost:7777",
+    "apiRootUrl": "http://localhost:7777",
+    "loginUrl": "http://localhost:7777"
+  }
+}
