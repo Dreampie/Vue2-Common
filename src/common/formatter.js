@@ -39,7 +39,7 @@ const padStart = (value, length, char) => {
 const DateFormatter = {
     format: (val, format) => {
         let _date = val
-        const splitArr = format.split(/(yyyy|MM|dd|hh|mm|ss)+/)
+        const splitArr = format.split(/(yyyy|MM|dd|HH|mm|ss)+/)
 
         if ((typeof val === 'undefined' ? 'undefined' : _typeof(val)) !== 'object') {
             _date = new Date(val)

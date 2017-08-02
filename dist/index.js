@@ -737,7 +737,7 @@ var padStart = function padStart(value, length, char) {
 var DateFormatter = {
     format: function format(val, _format) {
         var _date = val;
-        var splitArr = _format.split(/(yyyy|MM|dd|hh|mm|ss)+/);
+        var splitArr = _format.split(/(yyyy|MM|dd|HH|mm|ss)+/);
 
         if ((typeof val === 'undefined' ? 'undefined' : _typeof(val)) !== 'object') {
             _date = new Date(val);
