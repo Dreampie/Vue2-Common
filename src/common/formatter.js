@@ -58,7 +58,7 @@ const DateFormatter = {
                 const date = padStart(_date.getDate(), 2, 0)
                 return isNaN(date) ? '__' : date
             }
-            if (item === 'hh') {
+            if (item === 'HH') {
                 const hours = padStart(_date.getHours(), 2, 0)
                 return isNaN(hours) ? '__' : hours
             }
